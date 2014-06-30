@@ -16,7 +16,7 @@ var participant_response_type = 0;
 //      0 -> The count of each feature is not asked for
 //      1 -> The count of two features are requested
 //      2 -> The count of 3 features are requested
-var participant_feature_count = 2;
+var participant_feature_count = 0;
 
 // Linguistic framing
 //      0 -> "My favorite friend has a hat"
@@ -65,7 +65,7 @@ var familiarization_status = 0;
 //    3 -> "snowman"
 //    4 -> "sundae"
 //    5 -> "Christmas tree"
-var stim_index = random(0,5);
+var stim_index = 1;
 //var stim_index = 0;
 
 // The Scale and Levels.
